@@ -13,7 +13,7 @@ This version of Airflow has significant changes:
 - **API-only interface**: You interact with Airflow primarily through REST API calls
 - **New architecture**: This is a major architectural shift from previous versions
 
-## How to Access Airflow
+## How to Access Airflowhttps://github.com/shivaramch/airflow-projects/tree/main
 
 ### 1. API Documentation
 Open your browser to: **http://localhost:8080**
@@ -39,7 +39,7 @@ curl -X POST http://localhost:8080/public/dags/{dag_id}/dagRuns \
 
 ## Directory Structure
 ```
-/Users/shivaram.chennapragada/Documents/GitHub/airflow-projects/
+/Users/user.name/Documents/GitHub/airflow-projects/
 ├── airflow.cfg          # Airflow configuration
 ├── airflow.db           # SQLite database
 ├── dags/                # Put your DAG files here (create this folder)
@@ -93,10 +93,10 @@ hello_task = PythonOperator(
 ### Start Services
 ```bash
 # API Server (already running)
-/Users/shivaram.chennapragada/Documents/GitHub/airflow-projects/.venv/bin/python -m airflow api-server --port 8080
+/Users/user.name/Documents/GitHub/airflow-projects/.venv/bin/python -m airflow api-server --port 8080
 
 # Scheduler (already running)
-/Users/shivaram.chennapragada/Documents/GitHub/airflow-projects/.venv/bin/python -m airflow scheduler
+/Users/user.name/Documents/GitHub/airflow-projects/.venv/bin/python -m airflow scheduler
 ```
 
 ### Stop Services
@@ -105,7 +105,7 @@ Press `Ctrl+C` in each terminal where the services are running.
 ## Environment Variables
 Make sure to set this in each new terminal session:
 ```bash
-export AIRFLOW_HOME=/Users/shivaram.chennapragada/Documents/GitHub/airflow-projects
+export AIRFLOW_HOME=/Users/user.name/Documents/GitHub/airflow-projects
 ```
 
 ## Alternative: Traditional Airflow Web UI
