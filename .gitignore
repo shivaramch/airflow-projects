@@ -1,0 +1,9 @@
+start_airflow.py
+start_airflow_services.sh
+start_airflow_complete.sh
+simple_auth_manager_passwords.json.generated
+scheduler.log
+login_info.sh
+api_server.log
+airflow.cfg
+airflow.db
